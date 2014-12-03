@@ -1,4 +1,22 @@
+.navbar {
+    padding: 10px;
+}
 
+#stacy {
+    font-size: 20px;
+}
+#stacy:hover{
+    color: red;
+}
+
+#navbuttons {
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+}
+#navbuttons:hover{
+    color: red;
+}
 
  .welcomepage {
    background: url("Gradient-Background-17.jpg") no-repeat center fixed;
