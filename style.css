@@ -10,7 +10,7 @@
     font-size: 20px;
 }
 #stacy:hover{
-    color: red;
+    color: purple;
 }
 
 #navbuttons {
@@ -19,7 +19,7 @@
     font-size: 20px;
 }
 #navbuttons:hover{
-    color: red;
+    color: purple;
 }
 
  .welcomepage {
@@ -59,4 +59,8 @@
    font-family: courier;
    padding-bottom: 10px;
    background-color: transparent;
+}
+#stacypic {
+    max-width: 300px;
+    max-height: 300px;
 }
