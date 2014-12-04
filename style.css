@@ -1,3 +1,7 @@
+#navigationbar {
+    background-color: transparent;
+    border: transparent;
+}
 .navbar {
     padding: 10px;
 }
