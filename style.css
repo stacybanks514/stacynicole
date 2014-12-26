@@ -31,27 +31,14 @@ section.module.parallax {
   background-attachment: fixed;
   background-size: cover;
 }
-#welcome {
-  padding-top: 200px;
-  padding-right: 50px;
-  max-width: 500px;
-  float: right;
-}
-.intro {
-  line-height: 100px;
-  text-align: center;
-}
-.web {
-  line-height: 100px;
-  text-align: right;
-}
+
 section.module.parallax h1 {
   font-size: 48px;
   line-height: 70px;
   font-weight: 700;
   text-align: right;
   text-transform: uppercase;
-  color: #EEE8AA;
+  color: #F5F5F5;
 }
 
 section.module.parallax h3 {
@@ -59,7 +46,7 @@ section.module.parallax h3 {
   line-height: 50px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #EEE8AA;
+  color: #F5F5F5;
 }
 
 section.module.parallax-1 {
@@ -67,11 +54,12 @@ section.module.parallax-1 {
 }
 
 section.module.parallax-2 {
-  background-image: url("congruent_pentagon.png");
+  background-image: url("001.jpg");
+  /*background-color: peachpuff;*/
 }
 
 section.module.parallax-3 {
-  background-image: url("congruent_pentagon.png");
+  background-image: url("001.jpg");
 }
 
 @media all and (min-width: 600px) {
@@ -90,14 +78,32 @@ section.module.parallax-3 {
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 80px;
-    color: white;
+    color: #F5F5F5;
   }
    section.module.parallax h3 {
     font-size: 50px;
-    color: white;
+    color: #F5F5F5;
+  }
+  section.module.parallax h4 {
+    font-size: 30px;
+    color: #F5F5F5;
   }
 }
-
+#welcome {
+  padding-top: 200px;
+  padding-right: 50px;
+  max-width: 500px;
+  float: right;
+  text-align: right;
+}
+.intro {
+  line-height: 100px;
+  text-align: center;
+}
+.web {
+  line-height: 100px;
+  text-align: right;
+}
 #list {
   max-width: 500px;
 }
@@ -108,4 +114,9 @@ ul {
 li {
   font-size: 20px;
   font-weight: 300;
+}
+#quote1 {
+  padding-top: 200px;
+ 
+  text-align: center;
 }
