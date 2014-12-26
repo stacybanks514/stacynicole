@@ -1,66 +1,97 @@
-#navigationbar {
-    background-color: transparent;
-    border: transparent;
-}
-.navbar {
-    padding: 10px;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-#stacy {
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+
+section.module.parallax {
+  height: 700px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#welcome {
+  padding-top: 200px;
+  padding-right: 50px;
+  max-width: 500px;
+  float: right;
+}
+.intro {
+  line-height: 100px;
+  text-align: center;
+}
+.web {
+  line-height: 100px;
+  text-align: right;
+}
+section.module.parallax h1 {
+  font-size: 48px;
+  line-height: 70px;
+  font-weight: 700;
+  text-align: right;
+  text-transform: uppercase;
+  color: #EEE8AA;
+}
+
+section.module.parallax h3 {
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #EEE8AA;
+}
+
+section.module.parallax-1 {
+  background-image: url("001.jpg");
+}
+
+section.module.parallax-2 {
+  background-image: url("congruent_pentagon.png");
+}
+
+section.module.parallax-3 {
+  background-image: url("congruent_pentagon.png");
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
     font-size: 20px;
-}
-#stacy:hover{
-    color: purple;
-}
-
-#navbuttons {
-    float: right;
-    text-decoration: none;
-    font-size: 20px;
-}
-#navbuttons:hover{
-    color: purple;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
 }
 
- .welcomepage {
-   background: url("Gradient-Background-17.jpg") no-repeat center fixed;
-   width: 600px;
-   height: 600px;
-   background-color: transparent;
-   padding-top: 350px;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   position: absolute;
-   margin: auto;
-}
-.day {
-   width: 600px;
-   text-align: center;
-   font-size: 60pt;
-   color: black;
-   font-family: courier;
-   padding-bottom: 10px;
-   background-color: transparent;
-}
-.stacy {
-   text-align: center;
-   color: black;
-   font-size: 30pt;
-   font-family: courier;
-   padding-bottom: 10px;
-   background-color: transparent;
-}
-.under {
-   text-align: center;
-   color: black;
-   font-size: 30pt;
-   font-family: courier;
-   padding-bottom: 10px;
-   background-color: transparent;
-}
-#stacypic {
-    max-width: 300px;
-    max-height: 300px;
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 80px;
+    color: white;
+  }
+   section.module.parallax h3 {
+    font-size: 50px;
+    color: white;
+  }
 }
