@@ -50,7 +50,7 @@ section.module.parallax h3 {
 }
 
 section.module.parallax-1 {
-  background-image: url("rsz_2001.jpg");
+  background-image: url("001.jpg");
 }
 
 section.module.parallax-2 {
@@ -101,11 +101,19 @@ section.module.parallax-3 {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
+.row.social {
+  padding-right: 15px;
+}
 .web {
   line-height: 100px;
   text-align: right;
   font-family: 'Open Sans', sans-serif;
 }
+
+.intro-social {
+  padding: 0 10px;
+}
+
 #list {
   max-width: 500px;
 }
